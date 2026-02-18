@@ -326,9 +326,9 @@ layers:
   - '3'
   - '4'
   - '5'
-  - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -337,11 +337,11 @@ layers:
   - '='
   - '-'
   - +
-  - ENTER
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -349,7 +349,7 @@ layers:
   - )
   - '['
   - ']'
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -369,15 +369,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [53, 0]
+- p: [53, 1]
   k: {t: hatch, h: toggle}
-  l: [hatch, default]
+  l: [default, hatch]
 - p: [53, 41]
   k: DEL
-  l: [hatch, inkscape, default]
+  l: [default, hatch]
 - p: [53, 29]
   k: ENTER
-  l: [lower, default, hatch]
-- p: [52, 36, 37]
-  k: Ctl+Y
-  l: [hatch]
+  l: [default, hatch, lower]
+- p: [53, 17]
+  k: BACKSPACE
+  l: [default, hatch]
