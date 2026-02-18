@@ -31,9 +31,9 @@
         compatible = "zmk,combos";
 
         toggle-hatch {
-            bindings = <&to 4>;
+            bindings = <&tog 4>;
             key-positions = <53 0>;
-            layers = <1 4 0>;
+            layers = <4 0>;
             timeout-ms = <5>;
         };
 
