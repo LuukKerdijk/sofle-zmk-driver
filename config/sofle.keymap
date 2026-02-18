@@ -33,7 +33,7 @@
         toggle-hatch {
             bindings = <&tog 4>;
             key-positions = <53 1>;
-            layers = <0 4>;
+            layers = <0>;
         };
 
         hatch_redo {
