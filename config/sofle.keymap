@@ -27,6 +27,32 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        toggle-hatch {
+            bindings = <&to 4>;
+            key-positions = <53 1>;
+            layers = <0 4>;
+            timeout-ms = <5>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <53 41>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <53 29>;
+        };
+
+        hatch_redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <52 36 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -110,6 +136,30 @@
 &none              &none            &none            &none            &none            &none            &trans    &none  &none  &none  &none  &none  &none  &none
                                     &none            &none            &none            &none            &none     &none  &none  &none  &none  &none
             >;
+        };
+
+        hatch {
+            bindings = <
+&trans  &trans  &trans        &trans     &trans    &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans     &trans    &kp A                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp H   &kp NUMBER_1  &kp MINUS  &kp PLUS  &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp B   &trans        &trans     &kp O     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans        &trans     &mo 5     &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "hatch";
+        };
+
+        hatch_ctrl {
+            bindings = <
+&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "hatch_ctrl";
         };
     };
 };
