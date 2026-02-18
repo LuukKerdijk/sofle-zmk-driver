@@ -30,30 +30,28 @@
     combos {
         compatible = "zmk,combos";
         timeout-ms = <300>; // Global timeout for all combos
-
         toggle-hatch {
             bindings = <&tog 4>;
-            key-positions = <53 0>;
-            layers = <4 0>;
-            timeout-ms = <5>;
+            key-positions = <53 1>;
+            layers = <0 4>;
         };
 
         del {
             bindings = <&kp DEL>;
             key-positions = <53 41>;
-            layers = <4 6 0>;
+            layers = <0 4>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <53 29>;
-            layers = <1 0 4>;
+            layers = <0 4 1>;
         };
 
-        hatch_redo {
-            bindings = <&kp LC(Y)>;
-            key-positions = <52 36 37>;
-            layers = <4>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <53 17>;
+            layers = <0 4>;
         };
     };
 
@@ -160,11 +158,11 @@
         inkscape {
             label = "inkscape";
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                       &trans     &trans    &trans    &trans     &trans  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                       &kp PG_UP  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp SPACE     &kp EQUAL     &kp MINUS     &kp PLUS      &kp ENTER                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp LPAR      &kp RPAR      &kp LBKT      &kp RBKT      &kp DEL    &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
-                      &trans        &trans        &trans        &trans     &trans    &trans  &trans     &trans    &trans    &trans
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SPACE     &kp EQUAL     &kp MINUS     &kp PLUS      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LPAR      &kp RPAR      &kp LBKT      &kp RBKT      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans        &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
