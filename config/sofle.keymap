@@ -127,11 +127,11 @@
 
         hatch_ctrl {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp LC(S)  &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &trans     &kp LC(C)  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &trans     &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "hatch_ctrl";
@@ -150,18 +150,6 @@
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
-        };
-
-        general {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp DEL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "general";
         };
     };
 };
