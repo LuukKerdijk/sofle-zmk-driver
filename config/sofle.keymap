@@ -33,18 +33,20 @@
         toggle-hatch {
             bindings = <&to 4>;
             key-positions = <53 0>;
-            layers = <1 4>;
+            layers = <1 4 0>;
             timeout-ms = <5>;
         };
 
         del {
             bindings = <&kp DEL>;
             key-positions = <53 41>;
+            layers = <1>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <53 29>;
+            layers = <1>;
         };
 
         hatch_redo {
