@@ -374,9 +374,10 @@ combos:
   l: [lower, hatch, default]
 - p: [53, 41]
   k: DEL
-  l: [lower]
+  l: [hatch, inkscape, default]
 - p: [53, 29]
   k: ENTER
-  l: [lower]
+  l: [lower, default, hatch]
 - p: [52, 36, 37]
   k: Ctl+Y
+  l: [hatch]
