@@ -35,6 +35,11 @@
             key-positions = <53 1>;
             layers = <0 4>;
         };
+
+        hatch_redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <52 36 37>;
+        };
     };
 
     keymap {
