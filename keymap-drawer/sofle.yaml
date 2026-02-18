@@ -371,10 +371,12 @@ layers:
 combos:
 - p: [53, 0]
   k: {t: hatch, h: toggle}
-  l: [lower, hatch]
+  l: [lower, hatch, default]
 - p: [53, 41]
   k: DEL
+  l: [lower]
 - p: [53, 29]
   k: ENTER
+  l: [lower]
 - p: [52, 36, 37]
   k: Ctl+Y
