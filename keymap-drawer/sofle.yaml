@@ -238,7 +238,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - hatch_ctrl
+  - ctrl
   - lower
   - SPACE
   - {t: ▽, type: trans}
@@ -246,7 +246,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  hatch_ctrl:
+  ctrl:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -287,7 +287,7 @@ layers:
   - Ctl+Z
   - {t: ▽, type: trans}
   - Ctl+C
-  - {t: ▽, type: trans}
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
