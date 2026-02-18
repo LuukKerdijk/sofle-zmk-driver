@@ -371,7 +371,7 @@ layers:
 combos:
 - p: [53, 0]
   k: {t: hatch, h: toggle}
-  l: [lower, hatch, default]
+  l: [hatch, default]
 - p: [53, 41]
   k: DEL
   l: [hatch, inkscape, default]
