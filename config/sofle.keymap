@@ -29,7 +29,7 @@
 
     combos {
         compatible = "zmk,combos";
-        timeout-ms = <100>; // Global timeout for all combos
+        timeout-ms = <300>; // Global timeout for all combos
 
         toggle-hatch {
             bindings = <&tog 4>;
