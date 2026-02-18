@@ -40,6 +40,12 @@
             bindings = <&kp LC(Y)>;
             key-positions = <52 36 37>;
         };
+
+        toggle-default {
+            bindings = <&tog 0>;
+            key-positions = <53 0>;
+            layers = <4>;
+        };
     };
 
     keymap {
