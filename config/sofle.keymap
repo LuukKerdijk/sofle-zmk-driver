@@ -22,8 +22,8 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+            if-layers = <6 1>;
+            then-layer = <2>;
         };
     };
 
@@ -33,19 +33,19 @@
         to-default {
             bindings = <&to 0>;
             key-positions = <53 0>;
-            layers = <4>;
+            layers = <3>;
         };
 
         toggle-hatch {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <53 1>;
-            layers = <0 4>;
+            layers = <0 3>;
         };
 
         hatch_redo {
             bindings = <&kp LC(Y)>;
             key-positions = <52 36 37>;
-            layers = <4>;
+            layers = <3>;
         };
     };
 
@@ -67,22 +67,10 @@
 &kp ESC    &kp Q   &kp W     &kp E     &kp R      &kp T                            &kp Y   &kp U      &kp I      &kp O     &kp P     &kp BSPC
 &kp TAB    &kp A   &kp S     &kp D     &kp F      &kp G                            &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &none      &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 1   &kp SPACE     &kp ENTER  &mo 2   &kp RCTRL  &kp RALT   &kp RGUI
+                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 6   &kp SPACE     &kp ENTER  &mo 1   &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
-
-        lower_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp BACKSPACE                    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp ENTER                        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp DEL        &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-                &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans          &trans          &trans
-            >;
-
-            label = "lower";
         };
 
         raise_layer {
@@ -131,7 +119,7 @@
 &trans  &kp M   &trans        &trans     &trans    &kp A                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp H   &kp NUMBER_1  &kp MINUS  &kp PLUS  &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp B   &trans        &trans     &kp O     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans        &trans     &mo 5     &mo 1   &kp P     &trans  &trans  &trans  &trans  &trans
+                &trans        &trans     &mo 4     &mo 6   &kp P     &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "hatch";
@@ -162,6 +150,18 @@
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        lower_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                           &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp BACKSPACE                    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp ENTER                        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp DEL        &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+                &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans          &trans          &trans
+            >;
+
+            label = "lower";
         };
     };
 };
