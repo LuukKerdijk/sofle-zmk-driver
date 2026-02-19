@@ -285,7 +285,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Z
-  - {t: ▽, type: trans}
+  - Ctl+Y
   - Ctl+C
   - Ctl+V
   - {t: ▽, type: trans}
