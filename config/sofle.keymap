@@ -142,7 +142,7 @@
 &trans  &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &kp LC(S)  &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &trans     &kp LC(C)  &kp LC(V)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(Y)  &kp LC(C)  &kp LC(V)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                    &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
