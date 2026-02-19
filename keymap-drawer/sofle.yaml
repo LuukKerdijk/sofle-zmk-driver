@@ -369,11 +369,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [53, 0]
+  k: {t: default, h: toggle}
+  l: [hatch]
 - p: [53, 1]
   k: {t: hatch, h: toggle}
   l: [default]
 - p: [52, 36, 37]
   k: Ctl+Y
-- p: [53, 0]
-  k: {t: default, h: toggle}
-  l: [hatch]
