@@ -30,8 +30,14 @@
     combos {
         compatible = "zmk,combos";
         timeout-ms = <300>; // Global timeout for all combos
-        toggle-hatch {
-            bindings = <&tog 4>;
+        to-default {
+            bindings = <&tog 0>;
+            key-positions = <53 0>;
+            layers = <4>;
+        };
+
+        to-hatch {
+            bindings = <&to 4>;
             key-positions = <53 1>;
             layers = <0>;
         };
@@ -39,12 +45,6 @@
         hatch_redo {
             bindings = <&kp LC(Y)>;
             key-positions = <52 36 37>;
-        };
-
-        toggle-default {
-            bindings = <&tog 0>;
-            key-positions = <53 0>;
-            layers = <4>;
         };
     };
 
