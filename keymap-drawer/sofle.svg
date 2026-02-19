@@ -368,14 +368,6 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RGUI</text>
 </g>
-<g class="combo combopos-0">
-<path d="M200,169 l102,93" class="combo"/>
-<path d="M200,169 l-102,-93" class="combo"/>
-<rect rx="6" ry="6" x="186" y="156" width="28" height="26" class="combo"/>
-<a href="#hatch">
-<text x="200" y="169" class="combo tap layer-activator">hatch</text>
-</a><text x="200" y="180" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 398)" class="layer-raise">
@@ -872,22 +864,6 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M172,169 l129,95" class="combo"/>
-<path d="M172,169 l-129,-95" class="combo"/>
-<rect rx="6" ry="6" x="158" y="156" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="172" y="169" class="combo tap layer-activator">default</text>
-</a><text x="172" y="180" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M200,169 l102,93" class="combo"/>
-<path d="M200,169 l-102,-93" class="combo"/>
-<rect rx="6" ry="6" x="186" y="156" width="28" height="26" class="combo"/>
-<a href="#hatch">
-<text x="200" y="169" class="combo tap layer-activator">hatch</text>
-</a><text x="200" y="180" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
 <path d="M121,240 l112,16" class="combo"/>
 <path d="M121,240 l-75,-7" class="combo"/>
 <rect rx="6" ry="6" x="107" y="227" width="28" height="26" class="combo"/>
