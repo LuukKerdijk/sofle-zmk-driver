@@ -125,11 +125,11 @@
 
         hub_layer {
             bindings = <
-&to 0   &tog 2  &trans  &trans  &trans  &trans                           &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp BACKSPACE                    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp ENTER                        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp DEL        &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-                &trans  &trans  &trans  &trans         &trans    &trans  &trans  &trans          &trans          &trans
+&to 0   &tog 2  &trans  &trans  &trans   &trans                           &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &kp BACKSPACE                    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &kp END  &kp ENTER                        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &kp DEL        &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+                &trans  &trans  &trans   &trans         &trans    &trans  &trans  &trans          &trans          &trans
             >;
 
             label = "hub";
