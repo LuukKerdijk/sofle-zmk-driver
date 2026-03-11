@@ -275,7 +275,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - END
   - ENTER
   - {t: ▽, type: trans}
   - LEFT ARROW
