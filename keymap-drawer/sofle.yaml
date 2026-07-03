@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - default
-  - adjust
+  - hub
   - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,7 +178,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: hub, type: held}
+  - hub
   - ''
   - ''
   - ''
