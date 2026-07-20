@@ -89,8 +89,8 @@
 &trans  &trans  &trans        &trans     &trans    &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp M   &trans        &trans     &trans    &kp A                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp H   &kp NUMBER_1  &kp MINUS  &kp PLUS  &mkp RCLK                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp B   &trans        &trans     &kp O     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans        &trans     &mo 0     &mo 4      &kp P     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans     &kp O     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans        &trans     &trans    &mo 4      &kp P     &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "hatch";
