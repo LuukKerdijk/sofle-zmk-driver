@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
-  - '1'
+  - {t: ▽, type: trans}
   - '-'
   - +
   - '&mkp RCLK'
